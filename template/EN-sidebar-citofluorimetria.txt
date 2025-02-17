@@ -1,4 +1,3 @@
-/* insert this code within body tag */
 <div class="sidenav">
   <a class="competenze" href="https://www.google.it/" target="_blank">Competenze</a>
   <a class="strumentazioni" href="https://www.google.it/" target="_blank">Strumentazioni</a>
