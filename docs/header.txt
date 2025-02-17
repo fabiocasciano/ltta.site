@@ -82,21 +82,21 @@ body {
 
 <div class="container">
   <div class="div1">
-    <a href="https://www.google.it">
-      <img src="https://raw.githubusercontent.com/fabiocasciano/logos/refs/heads/main/logo%20ltta.svg" alt="Logo Tecnopolo">
+    <a href="https://www.ltta.tecnopoloferrara.it/" target="_blank">
+      <img src="https://raw.githubusercontent.com/fabiocasciano/logos/refs/heads/main/logo%20ltta.svg" alt="Logo LTTA">
     </a>
     <p>Laboratorio di Ricerca Industriale e Trasferimento Tecnologico accreditato dalla Regione Emilia Romagna (DGR 1213/2007) con Delibera n.GPG/2012/119 del 6 febbraio 2012.</p>
   </div>
   <div class="div2">
-    <a class="a-center-top" href="https://www.google.it" target="_blank">
+    <a class="a-center-top" href="https://www.tecnopolo.fe.it/" target="_blank">
       <img src="https://raw.githubusercontent.com/fabiocasciano/logos/refs/heads/main/logo%20tecnopolo.svg" alt="Logo Tecnopolo">
     </a>
-    <a class="a-center-bottom" href="https://www.unife.it" target="_blank">
+    <a class="a-center-bottom" href="https://www.retealtatecnologia.it/" target="_blank">
       <img src="https://raw.githubusercontent.com/fabiocasciano/logos/refs/heads/main/Logo%20Rete%20Alta%20Tecnologia_2024_colori_sfondo%20bianco.svg" alt="Logo Rete Alta Tecnologia">
     </a>
   </div>
   <div class="div3">
-    <a href="https://www.google.it" target="_blank">
+    <a href="https://www.unife.it" target="_blank">
       <img src="https://raw.githubusercontent.com/fabiocasciano/logos/refs/heads/main/Unife_nero.svg" alt="Logo Unife">
     </a>
   </div>
