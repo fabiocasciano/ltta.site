@@ -1,0 +1,9 @@
+/* insert this code within body tag */
+<div class="sidenav">
+  <a class="competenze" href="https://www.google.it/" target="_blank">Competenze</a>
+  <a class="strumentazioni" href="https://www.google.it/" target="_blank">Strumentazioni</a>
+  <a class="contatti" href="https://www.google.it/" target="_blank">Contatti</a>
+  <a class="pubblicazioni" href="https://www.google.it/" target="_blank">Pubblicazioni</a>
+  <a class="collaborazioni" href="https://www.google.it/" target="_blank">Collaborazioni</a>
+  <a class="tariffario" href="https://www.google.it/" target="_blank">Tariffario</a>
+</div>
