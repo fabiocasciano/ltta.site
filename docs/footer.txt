@@ -1,4 +1,3 @@
-<head>
 
     <meta http-equiv="content-type" content="text/html; charset=windows-1252">
     <title>Footer LTTA</title>
@@ -24,14 +23,12 @@ body {
     .div1, .div2 {
       border: 1px solid black;
       box-sizing: border-box;
-      padding: 20px;
-      text-align: left; /* Mantiene l'allineamento del testo al centro */
+      padding: 10px;
       /* Centratura verticale e orizzontale con Flexbox */
       display: flex;
       flex-direction: column;
       justify-content: center;
       overflow: hidden;
-
     }
 
     /* Regole per la dimensione dei div*/
