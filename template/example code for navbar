@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="preload" href="https://fonts.googleapis.com">
+  <link rel="preload" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Navbar LTTA</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <style id="sidebar-style"></style>
+  <script>
+    $(document).ready(function() {
+      // Carica il CSS
+      $.get('https://raw.githubusercontent.com/fabiocasciano/ltta.site/refs/heads/main/css/navbar-CSS.txt', function(data) {
+        $('#sidebar-style').html(data);
+      }).fail(function() {
+        $('#sidebar-style').html("/* Impossibile caricare il CSS */");
+      });
+
+      // Carica l'HTML
+      $.get('https://raw.githubusercontent.com/fabiocasciano/ltta.site/refs/heads/main/template/IT-navbar.txt', function(data) {
+        $('body').html(data);
+      }).fail(function() {
+        $('body').html("<p>Impossibile caricare l'HTML della sidebar.</p>");
+      });
+    });
+  </script>
+</head>
+
+<body>
+</body>
+
+</html>
