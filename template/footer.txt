@@ -61,7 +61,7 @@ body {
       <div class="div1"> <a class="a-left" href="https://www.google.it">
           <img
 src="https://raw.githubusercontent.com/fabiocasciano/logos/refs/heads/main/loghi%20coesione%20larghi_DA%20USARE.svg"
-            alt="Logo LTTA"> </a> </div>
+            alt="Logo COESIONE" type="image/svg+xml"> </a> </div>
       <div class="div2"> <a class="a-right"
           href="https://www.art-er.it/" target="_blank"> <img
 src="https://raw.githubusercontent.com/fabiocasciano/logos/refs/heads/main/logo%20art-er_oriz%20IT.svg"
