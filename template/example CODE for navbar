@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="preload" href="https://fonts.googleapis.com">
+  <link rel="preload" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Navbar LTTA</title>
+  <style>
+    /* Stili generali per il body */
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    /* Stili di base per la barra di navigazione */
+    .navbar {
+      background-color: #D70264;
+      color: white;
+      width: 100%;
+      height: 100%;
+    }
+
+    .navbar a {
+      display: block;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+
+    }
+
+    .navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+      color: white;
+      border-radius: 5px;
+    }
+
+    /* Container per centrare la barra */
+    .navbar-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+    }
+
+    /* Rimuove gli stili predefiniti della lista e abilita Flexbox */
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+    }
+
+    /* Stili aggiuntivi per la classe nav-link (se necessario) */
+    .nav-link {
+      text-decoration: none;
+      text-align: center;
+      padding: 2px;
+      display: block;
+      white-space: nowrap;
+      font-size: 2vw;
+    }
+
+
+
+    /* I link senza la classe 'icons' prendono tutto lo spazio rimanente */
+    .nav:not(.icons) {
+      flex-grow: 1;  /* Important: Enable the flex-grow */
+    }
+    
+    /* Definisce le larghezze per le classi "icons" */
+    .icons {
+      width: 5%; /* Utilizza una variabile CSS per la larghezza */
+      flex-grow: 0; /* Impedisce all'elemento di espandersi */
+      flex-shrink: 0; /* Impedisce all'elemento di ridursi */
+      align-items: center;
+    }
+
+    .material-icons {
+      font-size: 2.4vw;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="navbar-container">
+      <ul class="list">
+        <li class="nav icons"><a href="#" class="nav-link"><i class="material-icons">home</i></a></li>
+        <li class="nav"><a href="#" class="nav-link">CHI SIAMO</a></li>
+        <li class="nav"><a href="#" class="nav-link">SERVIZI</a></li>
+        <li class="nav"><a href="#" class="nav-link">ATTREZZATURE</a></li>
+        <li class="nav"><a href="#" class="nav-link">PROGETTI</a></li>
+        <li class="nav"><a href="#" class="nav-link">PARTNER</a></li>
+        <li class="nav"><a href="#" class="nav-link">NEWS</a></li>
+        <li class="nav icons"><a href="#" class="nav-link"><i class="material-icons">mail</i></a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
