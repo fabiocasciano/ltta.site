@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+  </script>
+
+  <script>
+    $(document).ready(function() {
+      $.get('https://raw.githubusercontent.com/fabiocasciano/ltta.site.github.io/refs/heads/main/template/header.txt', function(data) {
+        $('html').html(data); // Inserisce l'HTML all'interno del tag <html>
+      }).fail(function() {
+        $('html').html("<p>Impossibile caricare l'header.</p>"); // Gestisce l'errore
+      });
+    });
+  </script>
+</html>
