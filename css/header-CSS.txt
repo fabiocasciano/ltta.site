@@ -15,8 +15,7 @@
     }
 
     .svg-container svg {
-      width: 80%;
-
+      width: 100%;
     }
 
     .svg-container a rect,
