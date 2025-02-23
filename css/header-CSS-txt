@@ -1,0 +1,23 @@
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .svg-container {
+      width: 100%;
+      height: auto;
+    }
+
+    .svg-container svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    .svg-container a rect,
+    .svg-container a circle {
+      fill: transparent; /* Rende l'area trasparente */
+      stroke: none; /* Rimuove il bordo (se non lo vuoi) */
+    }
