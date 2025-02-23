@@ -1,18 +1,23 @@
-body {
+      body {
       margin: 0;
-      min-height: 100vh; /* Assicura che il body occupi almeno l'intera altezza della viewport */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
     }
 
     .svg-container {
-       width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+      width: 100%;
+      height: auto;
     }
 
     .svg-container svg {
-      width: auto;          /* Mantiene le proporzioni originali */
-      max-width: 80%;        /* Imposta una larghezza massima per evitare che sia troppo grande */
-      max-height: 80%;       /* Imposta un'altezza massima */
+      width: 100%;
+      height: 100%;
+    }
+
+    .svg-container a rect,
+    .svg-container a circle {
+      fill: transparent; /* Rende l'area trasparente */
+      stroke: none; /* Rimuove il bordo (se non lo vuoi) */
     }
