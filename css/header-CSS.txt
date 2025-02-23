@@ -12,6 +12,7 @@ body {
     }
 
     .svg-container svg {
-      width: 100%;        /* Imposta una larghezza massima per evitare che sia troppo grande */
-      height: 100%;       /* Imposta un'altezza massima */
+      width: auto;          /* Mantiene le proporzioni originali */
+      max-width: 80%;        /* Imposta una larghezza massima per evitare che sia troppo grande */
+      max-height: 80%;       /* Imposta un'altezza massima */
     }
