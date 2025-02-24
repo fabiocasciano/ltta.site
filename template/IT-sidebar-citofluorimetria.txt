@@ -1,29 +1,8 @@
 <div class="sidenav">
-  <a class="competenze" href="https://sites.google.com/unife.it/ltta/servizi/bioinformatica" target="_top">Competenze</a>
-  <a class="strumentazioni" href="https://sites.google.com/unife.it/ltta/servizi/bioinformatica/strumentazioni" target="_top">Strumentazioni</a>
+  <a class="competenze" href="https://www.google.it/" target="_blank">Competenze</a>
+  <a class="strumentazioni" href="https://www.google.it/" target="_blank">Strumentazioni</a>
   <a class="contatti" href="https://www.google.it/" target="_blank">Contatti</a>
   <a class="pubblicazioni" href="https://www.google.it/" target="_blank">Pubblicazioni</a>
   <a class="collaborazioni" href="https://www.google.it/" target="_blank">Collaborazioni</a>
   <a class="tariffario" href="https://www.google.it/" target="_blank">Tariffario</a>
 </div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const currentPage = window.location.href;
-  const navLinks = document.querySelectorAll('.sidenav a');
-
-  navLinks.forEach(link => {
-    if (link.href === currentPage) {
-      link.classList.add('active');
-    }
-  });
-
-  // Gestione del click sui link (opzionale, ma consigliato)
-  navLinks.forEach(link => {
-    link.addEventListener('click', function(event) {
-      navLinks.forEach(a => a.classList.remove('active'));
-      this.classList.add('active');
-    });
-  });
-});
-</script>
