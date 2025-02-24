@@ -1,6 +1,6 @@
 <div class="sidenav">
-  <a class="competenze" href="https://sites.google.com/unife.it/ltta/servizi/bioinformatica">Competenze</a>
-  <a class="strumentazioni" href="https://sites.google.com/unife.it/ltta/servizi/bioinformatica/strumentazioni">Strumentazioni</a>
+  <a class="competenze" href="https://sites.google.com/unife.it/ltta/servizi/bioinformatica" target="_self">Competenze</a>
+  <a class="strumentazioni" href="https://sites.google.com/unife.it/ltta/servizi/bioinformatica/strumentazioni" target="_self">Strumentazioni</a>
   <a class="contatti" href="https://www.google.it/" target="_blank">Contatti</a>
   <a class="pubblicazioni" href="https://www.google.it/" target="_blank">Pubblicazioni</a>
   <a class="collaborazioni" href="https://www.google.it/" target="_blank">Collaborazioni</a>
