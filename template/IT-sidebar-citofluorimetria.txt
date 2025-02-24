@@ -6,3 +6,24 @@
   <a class="collaborazioni" href="https://www.google.it/" target="_blank">Collaborazioni</a>
   <a class="tariffario" href="https://www.google.it/" target="_blank">Tariffario</a>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const currentPage = window.location.href;
+  const navLinks = document.querySelectorAll('.sidenav a');
+
+  navLinks.forEach(link => {
+    if (link.href === currentPage) {
+      link.classList.add('active');
+    }
+  });
+
+  // Gestione del click sui link (opzionale, ma consigliato)
+  navLinks.forEach(link => {
+    link.addEventListener('click', function(event) {
+      navLinks.forEach(a => a.classList.remove('active'));
+      this.classList.add('active');
+    });
+  });
+});
+</script>
