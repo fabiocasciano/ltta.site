@@ -1699,7 +1699,7 @@
     <a
        id="a5"
        xlink:href="https://www.unife.it/it"
-       target="_parent"
+       target="_top"
        inkscape:label="link UNIFE italiano"
        style="opacity:0">
       <rect
@@ -1713,5 +1713,6 @@
     </a>
   </g>
 </svg>
+
 
 </div>
