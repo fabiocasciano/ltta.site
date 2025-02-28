@@ -4,7 +4,7 @@
         <li class="nav icons"><a href="#" class="nav-link"><i class="material-icons">home</i></a></li>
         <li class="nav"><a href="#" class="nav-link">CHI SIAMO</a></li>
         <li class="nav"><a href="#" class="nav-link">SERVIZI</a></li>
-        <li class="nav"><a href="/unife.it/ltta/italiano-1/progetti" class="nav-link" target="_self">ATTREZZATURE</a></li>
+        <li class="nav"><a jscontroller="yUHiM" jsaction="rcuQ6b:WYd;" jsname="QwLHlb" role="link" tabindex="0" data-navtype="1" href="/unife.it/ltta/italiano-1/attrezzature" data-url="/unife.it/ltta/italiano-1/attrezzature" data-type="1" data-level="2" class="nav-link">ATTREZZATURE</a></li>
         <li class="nav"><a href="/unife.it/ltta/italiano-1/progetti" class="nav-link" target="_self">PROGETTI</a></li>
         <li class="nav"><a href="#" class="nav-link">PARTNER</a></li>
         <li class="nav"><a href="#" class="nav-link">NEWS</a></li>
