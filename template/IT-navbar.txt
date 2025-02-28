@@ -4,8 +4,8 @@
         <li class="nav icons"><a href="#" class="nav-link"><i class="material-icons">home</i></a></li>
         <li class="nav"><a href="#" class="nav-link">CHI SIAMO</a></li>
         <li class="nav"><a href="#" class="nav-link">SERVIZI</a></li>
-        <li class="nav"><a href="https://sites.google.com/unife.it/ltta/italiano-1/attrezzature" class="nav-link" target="_parent">ATTREZZATURE</a></li>
-        <li class="nav"><a href="#" class="nav-link">PROGETTI</a></li>
+        <li class="nav"><a href="/unife.it/ltta/italiano-1/progetti" class="nav-link" target="_parent">ATTREZZATURE</a></li>
+        <li class="nav"><a href="/unife.it/ltta/italiano-1/progetti" class="nav-link" target="_parent">PROGETTI</a></li>
         <li class="nav"><a href="#" class="nav-link">PARTNER</a></li>
         <li class="nav"><a href="#" class="nav-link">NEWS</a></li>
         <li class="nav icons"><a href="#" class="nav-link"><i class="material-icons">mail</i></a></li>
